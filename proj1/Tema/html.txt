@@ -1,0 +1,328 @@
+<html> 
+    <head>
+        <title>Star Gym</title>
+        <link rel="stylesheet" href="style.css" >
+        <meta name="viewport" content="width=device-width,initial-scale=1.0" > 
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"> 
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" >
+        </script> 
+       
+    
+<body data-spy="scroll" data-target="#menu">
+
+<!---Home Section-->
+ <div id="Home"> 
+ </div>
+    
+
+<!---Navigation-->
+
+<nav class="navbar navbar-expand-md navbar-dark fixed-top">
+    <div class="container-fluid">
+    <a class="navbar-brand" href="#"><img src="images/sg.png."> </a> 
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu">
+        <span class="navbar-toggler-icon"></span> 
+       </button>
+          <div class="collapse navbar-collapse" id="menu">
+          <ul class="navbar-nav text-right">
+            <li class="nav-item ">
+              <a class="nav-link" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#services" >Services</a>
+              </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#portfolio">Portfolio</a>
+              <li class="nav-item">
+                <a class="nav-link" href="#team" >Team</a>
+              </li>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#program" >Program</a>
+              </li> 
+            <li class="nav-item">
+            <a class="nav-link" href="#contact" >Contact</a>
+         </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#subscribe">Subscribe</a>
+           </li>
+          </ul>
+        </div>
+        </div>
+     </nav>
+
+
+
+
+<!---Image Slider-->
+
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="5000"> 
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li> 
+              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  </ol> 
+  <div class="carousel-inner" role="listbox">
+
+  
+    <!---Slide 1-----> 
+    <div class="carousel-item active" style="background-image: url(images/db.png);">
+    <div class="carousel-caption text-center">
+      <h1>One day or day one <br> you decide!</h1> 
+      <h3>Our gym helps people reach their desired goals in a pleasant environment with the help of the best fitness coaches.</h3> 
+      <br> 
+      <a class="btn btn-outline-light btn-lg" href="#about">Discover</a>
+          </div>
+        </div>  
+
+        <!---Slide 2-----> 
+    <div class="carousel-item" style="background-image: url(images/cr.jpg);">
+    
+    </div> 
+
+    <!---Slide 3-----> 
+    <div class="carousel-item" style="background-image: url(images/g.jpg);">
+    
+    </div> 
+  </div> 
+</div>
+
+
+<!---About----->
+   <div id="about" class="offset"> 
+    
+    
+       
+        <h3 class="heading jumbotron container-fluid">About</h3>
+        <br>
+
+        <div class="row">
+            <div class="col-md-4 text-center">
+                <h4>Objective</h4>
+                <p>From the begining, Star Gym wanted to bring a new concept regarding health care through movement</p>
+            </div>
+                <div class="col-md-4 text-center">
+                    <h4>Mediu</h4>
+                    <p>The elegant and comfortable atmosphere of the club represents the ideal location where physical exercises become a healthy habit </p>
+                </div>
+                    <div class="col-md-4 text-center">
+                        <h4>Features</h4>
+                        <p> The professional equipment designed for the training of each muscle group will help you to achieve incredible results. </p>
+                    </div>
+        </div>
+   </div>
+
+
+
+ <!---Services-----> 
+
+   <div id="services" class="offset">
+    <h3 class="head jumbotron container-fluid text-center">Services</h3>   
+    <div class="row"> 
+        <div class="service-box text-center"> 
+            <img src="Images/i.png">
+            <h4>Fitness</h4>
+        </div>
+  
+        <div class="service-box text-center"> 
+            <img src="Images/aerobic.png">
+            <h4>Aerobic</h4>
+        </div> 
+
+        <div class="service-box text-center"> 
+            <img src="Images/cardio.png">
+            <h4>Cardio</h4> 
+        </div>
+            
+            <div class="service-box text-center"> 
+                <img src="Images/pool1.png">
+                <h4>Pool</h4> 
+            </div>
+
+                <div class="service-box text-center"> 
+                    <img src="Images/sauna.png">
+                    <h4>Sauna</h4>
+                </div> 
+
+                <div class="service-box text-center"> 
+                    <img src="Images/masaj.png">
+                    <h4>Massage</h4>
+                </div>
+            
+        </div>
+  
+    </div>
+   
+   
+   <!---Portfolio--> 
+  <div id="portfolio" class="offset">
+
+     <div class="container-fluid padding">
+        <div class="col-12 text-center">
+      <h3 class="heading">Portfolio</h3> 
+      </div>
+     
+
+      <div class="row no-padding">
+         
+        <div class="col-md-6">
+           <img class="images" src="Images/gy1.jpg"> 
+        </div> 
+        <div class="col-md-6">
+            <img class="images" src="Images/g2.jpg"> 
+         </div>
+         <div class="col-md-6">
+            <img class="images" src="Images/g3.jpg"> 
+         </div>
+         <div class="col-md-6">
+            <img class="images" src="Images/g4.jpg"> 
+         </div>
+         <div class="col-md-6">
+            <img class="images" src="Images/pool.jpg"> 
+         </div>
+         <div class="col-md-6">
+            <img class="images" src="Images/sauna.jpg"> 
+         </div> 
+
+    
+
+    </div>   <!---End Row-->
+    </div>   <!---End Jumbotron--> 
+</div> 
+
+
+
+ <!---Team-->  
+
+
+ <div id="team" class="offset"> 
+
+<div class="col-12 text-center">
+    <h3 class="heading">Team</h3> 
+    <div class="heading-underline"></div>
+</div>
+    <div class="row padding ">
+        <div class="col-md-6">
+            <div class="card text-center">
+                <img class="card-img-top" src="Images/t1.jpg">
+                <div class="card-body">
+                    <h4>Tom Hanks</h4>
+                    <p>Fitness instructor<br>The longest-standing employee of Star Gym. His most commonly used words are energy and intensity. He prefers HIIT and HIRT workouts more than anything else.</p>
+                </div>
+
+            </div>
+        </div>
+
+
+        <div class="col-md-6">
+            <div class="card text-center">
+                <img class="card-img-top" src="Images/t2.jpg">
+                <div class="card-body">
+                    <h4>Ryan Reynald</h4>
+                    <p>Fitness instructor and Aikido coach<br>The best instructor you could have. The qualities that defines him are experience, seriousness and professionalism.</p>
+                </div>
+
+            </div>
+        </div> 
+        
+        
+        
+        <div class="col-md-6">
+            <div class="card text-center">
+                <img class="card-img-top" src="Images/t3.jpg">
+                <div class="card-body">
+                    <h4>Bridgit Mendler</h4>
+                    <p>Swin instructor</p>
+                </div>
+
+            </div>
+        </div> 
+
+
+
+        <div class="col-md-6">
+            <div class="card text-center">
+                <img class="card-img-top" src="Images/t4.jpg">
+                <div class="card-body">
+                    <h4>Amber Heard</h4>
+                    <p>Reception</p>
+                </div>
+
+            </div>
+        </div>
+
+
+     </div>
+ </div>
+
+
+
+    <!---Program-->
+
+    <div id="program" class="offset"> 
+      <div class="jumbotron container-fluid">
+        <h3 class="heading text-center">The program of Star Gym is</h3>
+        <div class="heading text-center">
+            
+                <li>Monday:  8AM-1OPM</li>
+                <li>Tuesday: 8AM-1OPM </li>
+                <li>Wednesday:  8AM-1OPM</li>
+                <li>Thursday:  8AM-1OPM </li>
+                <li>Friday:  8AM-1OPM</li>
+                <li>Saturday: 9AM-7PM</li>
+                <li>Sunday: 9AM-7PM </li>
+             
+
+
+        </div>
+    </div> 
+ </div>
+
+
+   
+    <!---Contact-->
+ 
+     <div id="contact" class="offset">
+        <div class="jumbotron container-fluid footer">
+            <div class="row">
+
+                <div class="col-md-3"></div>
+                <div class="col-md-6 text-center">
+                        <img src="Images/sg.png">
+                        <p>Come and begin your journey with us!</p>
+                        <strong>Where you can find us</strong>
+                        <p>100 Street Name<br>Our City,AA 10000</p>
+                        <strong>Contact Info</strong>
+                        <p>071233578<br>office@stargym.com</p>
+                </div>
+             </div>
+        </div>
+    </div>
+
+
+    <!---Subscribe-->
+
+    <div id="subscribe" class="offset"> 
+        <div class = "jumbotron container-fluid footer text-center">
+            <h2>Subscribe to our newsletter</h2> 
+            <form>
+              <input type="email" placeholder="Enter Your Email..." required>
+              <button type="submit">Subscribe</button>
+              <br> 
+              <small>Copyright @ 2020 , Designed by Lazar Leonard <br>Powered by UPfit.cloud</small>
+            </form>
+          </div>
+ 
+         
+   </div> 
+
+        <script src="js/query-3.4.1.min.js"></script>
+        <script src="bootstrap-4.4.1-dist/js/bootstrap.min.js"></script>
+        
+
+</body>
+</html>

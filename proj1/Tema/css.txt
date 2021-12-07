@@ -1,0 +1,287 @@
+
+
+body 
+{
+    overflow-x: hidden;
+    color: #7FFFD4;
+}
+
+
+
+
+.offset
+{
+   margin-top: 600px;
+}
+
+
+
+/*---------Navbar--------*/ 
+
+
+.navbar 
+{
+    text-transform: uppercase;
+    background-color: transparent;
+    font-weight: 700;
+    font-size: .8rem;
+    letter-spacing: .1rem; 
+      
+} 
+
+.nav-link 
+{
+    color: #7FFFD4 !important;
+    font-size: 15px !important;
+    padding: 0 0 10px 0 !important;
+    display: unset !important; 
+}
+
+.navbar-brand img 
+{
+    height: 4rem;
+} 
+
+.navbar-nav li
+{
+    padding-right: .9rem;
+} 
+.nav-link:hover
+{
+    border-bottom: 2px solid #7FFFD4;
+} 
+
+
+.btn 
+{
+    border-width: medium;
+    border-radius: 0;
+    text-transform: capitalize;
+    padding: .5rem 1.1rem;
+    font-size: .9rem;
+}
+
+
+
+
+
+
+/*------slider-------*/ 
+
+.carousel-item 
+{
+
+    height: 100vh;     
+     width: 150px;
+    
+} 
+
+.carousel-caption 
+{
+    position: absolute;
+    top: 38%; 
+    text-transform: uppercase;
+} 
+
+.carousel-caption h1 
+{
+    font-size: 3.8rem;
+    font-weight: 700;
+    letter-spacing: .3rem;
+    width: 100%;
+    right: 0;
+    left: 0;
+    text-shadow: .1rem .1rem .8 black;
+    padding-bottom: 2rem;
+
+} 
+
+.carousel-caption h3 
+{
+    font-size: 1rem;
+    text-shadow: .1rem .1rem .5 black;
+    padding-bottom: 0;
+
+}
+
+.jumbotron 
+{
+    border-radius: 0;
+    padding: 3rem 0 2rem;
+}
+
+
+
+
+h2.heading 
+{
+    margin-top: 75px 0;
+
+}
+
+
+
+h3.heading 
+{
+    margin-top: 75px 0;
+    text-align: center;
+    font-size: 1.9rem;
+    text-transform: uppercase;
+    margin-bottom: 1.9rem;
+
+} 
+
+
+
+
+h3.head 
+
+{
+    margin-top: 300px;
+    text-align: center;
+    font-size: 1.9rem;
+    text-transform: uppercase;
+    margin-bottom: 1.9rem;
+}
+
+
+
+h2.heading 
+{
+    font-size: 1.9rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-bottom: 1.9rem;
+}
+
+.heading-underline 
+{
+    width: 3rem;
+    height: .2rem;
+    background-color:black;
+    margin: 0 auto 2rem;
+}
+
+
+
+/*-----Portofolio--------*/ 
+
+
+.padding 
+{
+    padding: 2rem;
+}
+
+
+
+.images
+{
+    max-width: 100%;
+    
+    
+} 
+
+
+.no-padding .col-md-6
+{
+    padding: 0; 
+} 
+
+
+
+/*---------Service----------*/
+
+.service-box 
+{
+    padding: 0 35px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    transition: .4s;
+} 
+
+.service-box img 
+{
+    width: 100px;
+    margin-top: 65px;
+    margin-bottom: 45px;
+    margin-left: 80;
+}
+
+.service-box h4 
+{
+    margin-bottom: 40px;
+    margin-left: 80px;
+    font-weight: bold;
+    font-size: 23px;
+
+} 
+.service-box:hover 
+{
+    background: whitesmoke;
+    border-radius: 5px;
+    color: black !important;
+    box-shadow: 0 15px 15px 2px rgba(213, 213, 213, 0.5);
+}
+
+
+
+/*----------Contact&Subscribe-------------*/
+
+.footer 
+{
+    
+    padding-top: 5px;
+} 
+
+.footer h2 
+{
+    color: black ;
+    font-weight: 600;
+    margin: 70 px 0;
+}
+
+.footer input 
+{
+    width: 60%;
+    background: transparent;
+    outline: none;
+    border: 0;
+    border-bottom: 1px solid black;
+    padding: 10px;
+    color: black;
+    margin-bottom: 30px;
+    text-align: center;
+}
+::placeholder 
+{
+    color:black;
+    font-size: 13px;
+} 
+
+.footer button 
+{
+    padding: 6px; 
+    width: 180px;
+    margin: auto;
+    display: block; 
+    color: black;
+    border: 1px solid black;
+    font-size: 20px; 
+    background: transparent;
+} 
+
+.footer small 
+{
+    font-size: 14px;
+    padding: 70px;
+    padding-bottom: 20px;
+    color: black;
+    display: block;
+} 
+
+
+
+.card 
+{
+    margin: 2rem;
+}
